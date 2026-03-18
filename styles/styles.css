@@ -40,6 +40,8 @@ aside {
     width: 20rem;
     border: var(--border);
     text-align: center;
+    
+    position: relative;
 }
 
 aside img {
@@ -48,9 +50,9 @@ aside img {
 }
 
 aside h2 {
-  position: absolute;
-  top: 520px;
-  left: 100px;
+    position: absolute;
+    top: 20px;
+    left: 80px;
 }
 
 h1 {
@@ -78,10 +80,10 @@ footer {
 /* Class Selectors */
 
 .box {
-  margin: 1rem;
-  border: 1px solid rgb(0 0 0 / 10%);
-  padding: 1rem;
-  background-color: #eee;
-  color: #333;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
 }
 
