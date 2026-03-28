@@ -156,3 +156,7 @@ footer {
 footer p {
     color: #002130;
 }
+
+figcaption {
+    color: var(--text-color);
+}
