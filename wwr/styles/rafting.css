@@ -31,7 +31,7 @@ h2 {
     padding: 16px;
     text-align: center;
     background-color: var(--primary-color);
-    color: white;
+    color: #002130;
 }
 
 nav,
@@ -55,7 +55,7 @@ article {
     top: 68%;
     padding: 8px;
     background-color: var(--primary-color);
-    color: white;
+    color: #002130;
     border-radius: 10px;
     opacity: 90%;
     text-align: justify;
@@ -119,13 +119,13 @@ ul {
     padding: 1.2rem;
     border-radius: 30px;
     background-color: var(--primary-color);
-    border: 10px solid white;
+    border: 10px solid #002130;
     box-sizing: border-box;
 }
 
 ul a {
     text-decoration: none;
-    color: white;
+    color: #002130;
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -154,5 +154,5 @@ footer {
 }
 
 footer p {
-    color: white;
+    color: #002130;
 }
