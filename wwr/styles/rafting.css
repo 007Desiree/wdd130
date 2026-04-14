@@ -32,7 +32,7 @@ h2 {
     padding: 16px;
     text-align: center;
     background-color: var(--primary-color);
-    color: var(--dark-blue); 
+    color: white
 }
 
 nav,
@@ -298,4 +298,245 @@ section h1 {
 .employees figcaption {
     font-weight: 700;
     font-family: var(--heading-font);
+}
+
+.hero {
+    display: block;
+    position: relative;
+}
+
+.hero h1 {
+    top: 40px;
+    background-color: transparent;
+    font-size: 3rem;
+}
+
+.float {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 20px;
+}
+
+.hero .button {
+    margin-top: 20px;
+    background-color: var(--primary-color); 
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 4px solid var(--accent1-color);
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.hero span {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+h4 {
+    font-family: comic sans ms, cursive, sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.options figure {
+    width: 200px;
+}
+
+.options .image img {
+    width: 100%;
+    border: 5px solid var(--primary-color);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+.options .caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.options .caption img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+below {
+    display: block;
+    padding: 60px 0;
+    background-color: var(--accent1-color);
+    margin-top: 50px;
+    position: relative;
+    width: 100%;
+}
+
+.display {
+    width: 50%;
+    margin: 10px auto 10px 80px;
+}
+
+.display img {
+    width: 100%;
+    display: block;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+
+.floating-panel {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+    transform: translateY(-50%);
+    background-color: black;
+    width: 60%;
+    padding: 20px;
+    z-index: 10;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.floating-panel h2 {
+    background-color: transparent;
+    color: white;
+    padding: 0 0 10px 0;
+    width: 100%;
+}
+
+.floating-panel p {
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.plan-support {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    gap: 24px;
+    margin: 32px 0;
+}
+
+.grid-two {
+    display: grid;
+    gap: 24px;
+}
+
+.trips-intro {
+    display: grid;
+    grid-template-columns: 1.8fr 1.2fr;
+    gap: 15px;
+    align-items: start;
+    margin-top: 24px;
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+}
+
+.intro-panel,
+.special-note {
+    background-color: white;
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.intro-panel ul {
+    list-style: none;
+    margin-top: 16px;
+    padding-left: 0;
+}
+
+.intro-panel li {
+    margin-bottom: 10px;
+    padding: 5;
+    position: relative;
+}
+
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.trip-card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--accent1-color);
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.trip-copy h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.trip-table {
+    margin: 32px 0;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+.trip-table th,
+.trip-table td {
+    border: 1px solid #d0d0d0;
+    padding: 14px;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 700;
+}
+
+.trip-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.plan-panel h2,
+.special-note h3 {
+    margin-top: 0;
+}
+
+.plan-panel {
+    width: 100%;
+    text-align: center;
+}
+
+.plan-panel .button {
+    margin-top: 20px;
+    background-color: var(--primary-color); 
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 4px solid var(--accent1-color);
+    font-size: 0.9rem;
+    text-decoration: none;
 }
